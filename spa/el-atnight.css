@@ -1,0 +1,92 @@
+body.at-night,
+body.at-night .el-dialog,
+body.at-night .el-table,
+body.at-night .el-table th,
+body.at-night .el-table tr,
+body.at-night .el-message-box,
+body.at-night .el-message{
+    background-color: #333 !important;
+    color: #999;
+}
+body.at-night .el-table tr:hover td,
+body.at-night .el-alert--success.is-light,
+body.at-night .el-alert--warning.is-light,
+body.at-night .el-alert--danger.is-light,
+body.at-night .el-tag,
+body.at-night .el-select-dropdown,
+body.at-night .el-dropdown-menu,
+body.at-night .el-cascader__dropdown{
+    background-color: #444 !important;
+}
+
+body.at-night .el-dialog__title,
+body.at-night .el-message-box__title,
+body.at-night .el-message-box__content,
+body.at-night .el-form-item__label,
+body.at-night .el-dialog__body,
+body.at-night .el-tabs__item,
+body.at-night .tc-000,
+body.at-night .el-switch__label,
+body.at-night .el-select-dropdown__item,
+body.at-night .el-cascader-menu{
+    color: #999;
+}
+body.at-night .el-switch__label.is-active {
+    color: #3a8ee6;
+}
+
+body.at-night .el-input__inner,
+body.at-night .el-checkbox__inner,
+body.at-night .el-radio__inner,
+body.at-night .el-textarea__inner,
+body.at-night .el-select-dropdown__item.hover,
+body.at-night .el-select-dropdown__item:hover,
+body.at-night .el-dropdown-menu__item.hover,
+body.at-night .el-dropdown-menu__item:hover,
+body.at-night .el-cascader-node:not(.is-disabled):focus,
+body.at-night .el-cascader-node:not(.is-disabled):hover{
+    background-color: #3a3a3a;
+    color: #bbb;
+    border-color: #666;
+}
+
+body.at-night .el-table,
+body.at-night .el-table tr,
+body.at-night .el-table td,
+body.at-night .el-table th,
+body.at-night h3,
+body.at-night .footer-line{
+    border-color: #999 !important;
+}
+
+body.at-night .el-table:before,
+body.at-night .el-table:after,
+body.at-night .el-tabs__nav-wrap::after{
+    background-color: #999;
+}
+
+
+body.at-night .tc-333,
+body.at-night .tc-666  {
+    color: #999;
+}
+
+
+body.at-night .box-shadow {
+    box-shadow: 0 0 20px 0 #444;
+}
+
+body.at-night .el-popper[x-placement^=bottom] .popper__arrow::after{
+    border-bottom-color: #444;
+}
+body.at-night .el-select-dropdown,
+body.at-night .el-message-box,
+body.at-night .el-tag,
+body.at-night .el-message,
+body.at-night .el-cascader__dropdown{
+    border-color: #666
+}
+
+body.at-night .el-popper[x-placement^=bottom] .popper__arrow{
+    border-bottom-color: #666;
+}
